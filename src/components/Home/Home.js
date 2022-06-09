@@ -8,7 +8,7 @@ import {IoLogoGoogle} from 'react-icons/io'
 const Home = () => {
   return (
     <div>
-      <div className="h-screen banner-extra-style relative flex justify-center items-center">
+      <div className="h-screen banner-extra-style relative flex justify-center items-center scroll-mt-0" id="home">
         <div>
           <h1 className="text-white text-center text-4xl md:text-6xl font-semibold">Front End developer</h1>
           <div className="text-white text-2xl flex justify-center mt-8 items-center">

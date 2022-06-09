@@ -3,7 +3,8 @@
         "id":1,
         "pName":"ELECTRIC BUILDERS",
         "pType":"MERN",
-        "shortDes":"",
+        "shortDes":"This project is built with HTML5, CSS3, Javascript, React.js, Node.js, Express.js, MongoDb and Firebase.",
+        "thumb":"https://i.ibb.co/R991gXy/electric.png",
         "live":"https://last-assignment-auth.web.app/",
         "pFeat":["Users can order products in this website and see the orders in my orders page Users can also pay and cancel order.","Users can add a review in add a review page and the review will be added on homepage.","Users can update profile in My profile page","If a user is an admin he/she will see be able to manage order, deliver order, cancel order, modify tools etc.","An admin can make another person admin."]
     },
@@ -11,7 +12,8 @@
         "id":2,
         "pName":"MILITARY WAREHOUSE",
         "pType":"MERN",
-        "shortDes":"",
+        "thumb":"https://i.ibb.co/gPCMBpC/warehouse.png",
+        "shortDes":"This project is built with HTML5, CSS3, Javascript, React.js, Node.js, Express.js, MongoDb and Firebase.",
         "live":"https://inventory-management-11-9b48e.web.app/",
         "pFeat":["In homepage there are navigation,banner,warehouse states,6 warehouse items, some team members and footer.","There is a button called 'UPDATE STOCK' in every item and clicking it user will be taken to update product page.","In update product page user will be able to decrease quantity by clicking delivered button.User will be able to restok item by clicking restock button.","User will be able to add new item in add item page.","In manage items page all inventory items will be shown and user can manage it."]
     },
@@ -19,7 +21,8 @@
         "id":3,
         "pName":"VOLUNTEER NETWORK",
         "pType":"MERN",
-        "shortDes":"",
+        "thumb":"https://i.ibb.co/PtQ8Z5f/volunteer.png",
+        "shortDes":"This project is built with HTML5, CSS3, Javascript, React.js, Node.js, Express.js, MongoDb and Firebase.",
         "live":"https://voluteer-service.web.app/",
         "pFeat":["Homepage contains some volunteer services.You can see more description by clicking 'show more' button.","By clicking Checkout button you can see detail description about the service and also can register for the service.","In volunteer list route you can see details about all the volunteers who already registered including your registration also you can remove your registration.","In Add Event route you can add your own events.","In Events route you can see all the events you have added.","In Login route you can login to the website."]
     },
@@ -27,7 +30,8 @@
         "id":4,
         "pName":"TEETH WIZARD",
         "pType":"REACT",
-        "shortDes":"",
+        "shortDes":"This project is built with HTML5, CSS3, Javascript and React.js",
+        "thumb":"https://i.ibb.co/Ycb9kvH/teeth-wizard.png",
         "live":"https://rainbow-pegasus-a25c65.netlify.app/",
         "pFeat":["This project contains a hompage which contains a banner some dental services some clients comments.","clicking on checkout more will take us to the service checkout page where we can know about service and also make appoinment.","If user is not logged in then clicking on checkout more will take user to login page.","I about section there are some information about the creator of the website.","If the user is logged in or created an account then log out button will show up and user can log out if wants."]
     },
@@ -35,7 +39,8 @@
         "id":5,
         "pName":"GAMING UNIVERSE",
         "pType":"REACT",
-        "shortDes":"",
+        "shortDes":"This project is built with HTML5, CSS3, Javascript and React.js",
+        "thumb":"https://i.ibb.co/v1W2w4h/gaming-universe.png",
         "live":"https://gaminguniverse.netlify.app/",
         "pFeat":["Home page contains a main picture of the game and some information about it.The page also contains three reviews about the game.","Reviews page contains all reviews about the game.","Dashboard page contains 4 charts about investment,revenue and sell.","blogs page contains three blogs about web development.","About page contains three buttons.By clicking them some contact informations appear."]
     },
@@ -43,7 +48,8 @@
         "id":6,
         "pName":"AIRCRAFT HOUSE",
         "pType":"REACT",
-        "shortDes":"This project is built with HTML5, CSS3, React.js",
+        "shortDes":"This project is built with HTML5, CSS3, Javascript and React.js",
+        "thumb":"https://i.ibb.co/k4VV2Cm/aircraft-house.png",
         "live":"https://aircrafthouse.netlify.app/",
         "pFeat":["User can add aircrafts to the cart by clicking the add to cart button.","User can't add same aircraft twice.","User can remove aircraft from the cart.","User can clear cart.","Clicking the 'CHOOSE 1 FOR ME' button will suggest one random aircraft among all the aircraft in the cart."]
     }

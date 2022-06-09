@@ -3,7 +3,7 @@ import Profile from "../../images/profile.jpg";
 
 const About = () => {
   return (
-    <div className="my-32">
+    <div className="my-32 scroll-mt-20" id="about">
       <div className="max-w-[1200px] mx-auto md:flex">
         <div className="md:w-[40%] w-full">
           <img
