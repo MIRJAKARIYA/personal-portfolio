@@ -1,4 +1,5 @@
 .banner-extra-style{
     background-image: url('../../images/banner-back.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
