@@ -18,7 +18,8 @@ const ContactMe = () => {
         sender_name:name,
         sender_email:email,
         message:message,
-        sender_subject: subject
+        sender_subject: subject,
+        sender_phone: phone,
       },
       'vSIPicX-JygQnDR_c'
     )
