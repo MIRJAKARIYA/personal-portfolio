@@ -1,6 +1,9 @@
 import React from "react";
 import { send } from 'emailjs-com';
 import "./ContactMe.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const ContactMe = () => {
 
@@ -24,7 +27,7 @@ const ContactMe = () => {
       'vSIPicX-JygQnDR_c'
     )
     .then((res)=>{
-      console.log('Message sent successfully',res.status,res.text)
+      toast.success('Message sent successfully')
     })
     .catch((err)=>{
       console.log('Failed', err)
@@ -32,7 +35,7 @@ const ContactMe = () => {
   }
 
   return (
-<div className="contact-me-container">
+<div className="contact-me-container" id="contactme">
 <div className="max-w-[1200px] mx-auto lg:pl-10">
       <h1 className="text-4xl">Contact me</h1>
       <form action="" className="mt-4 md:w-full" onSubmit={handleContact}>
@@ -48,6 +51,7 @@ const ContactMe = () => {
         <button type="submit" className="btn btn-primary btn-sm">send message</button>
       </form>
     </div>
+    <ToastContainer></ToastContainer>
 </div>
   );
 };

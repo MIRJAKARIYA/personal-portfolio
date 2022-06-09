@@ -26,9 +26,9 @@ const About = () => {
               accusamus error? Labore explicabo quisquam vitae rem laudantium
               delectus, quos ut ex magni temporibus eveniet perspiciatis.
             </p>
-            <button className="btn btn-primary btn-sm mt-4">
-              download resume
-            </button>
+            <a href="#contactme" className="btn btn-primary btn-sm mt-4">
+              contact me
+            </a>
           </div>
         </div>
       </div>

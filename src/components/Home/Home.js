@@ -4,14 +4,16 @@ import { BsArrowDownCircle } from "react-icons/bs";
 import {GrLinkedinOption, GrFacebookOption} from 'react-icons/gr'
 import {AiFillGithub} from 'react-icons/ai'
 import {IoLogoGoogle} from 'react-icons/io'
+import Resume from "./Mir Jakariya's Resume.pdf"
 
 const Home = () => {
   return (
     <div>
       <div className="h-screen banner-extra-style relative flex justify-center items-center scroll-mt-0" id="home">
-        <div>
+        <div className="text-center">
           <h1 className="text-white text-center text-4xl md:text-6xl font-semibold">Front End developer</h1>
-          <div className="text-white text-2xl flex justify-center mt-8 items-center">
+          <a href={Resume} className="btn btn-xs btn-warning font-semibold mt-3" download={true}>download resume</a>
+          <div className="text-white text-2xl flex justify-center mt-6 items-center">
               <span>
                   <GrFacebookOption></GrFacebookOption>
               </span>
