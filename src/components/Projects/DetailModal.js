@@ -2,7 +2,7 @@ import React from "react";
 
 const DetailModal = ({modalData}) => {
     console.log(modalData)
-    const {live, pName, pType, pFeat, thumb, shortDes} = modalData;
+    const {live, pName, pType, pFeat, thumb,th1,th2, shortDes,client,server} = modalData;
   return (
     <>
       <input type="checkbox" id="my-modal-5" className="modal-toggle" />
@@ -10,12 +10,17 @@ const DetailModal = ({modalData}) => {
         <div className="modal-box w-11/12 max-w-5xl">
           <h3 className="font-bold text-xl mb-4">
             {pName} <span className="text-red-700">{`(${pType})`}</span>
-            <a rel="noreferrer" target='_blank' href={live} className="btn btn-xs ml-4 btn-outline btn-primary">visit website</a>
+            <a rel="noreferrer" target='_blank' href={live} className="btn btn-xs ml-4 btn-outline btn-primary">live website</a>
+            <a rel="noreferrer" target='_blank' href={client} className="btn btn-xs ml-4 btn-outline btn-primary">github client</a>
+            {
+              server && <a rel="noreferrer" target='_blank' href={server} className="btn btn-xs ml-4 btn-outline btn-primary">github server</a>
+
+            }
           </h3>
           <div className="grid grid-cols-3 gap-2">
               <img src={thumb} alt="" />
-              <img src={thumb} alt="" />
-              <img src={thumb} alt="" />
+              <img src={th1} alt="" />
+              <img src={th2} alt="" />
           </div>
           <p className="py-4 mt-2 text-primary font-semibold">
             {shortDes}

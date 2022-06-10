@@ -5,16 +5,24 @@
         "pType":"MERN",
         "shortDes":"This project is built with HTML5, CSS3, Javascript, React.js, Node.js, Express.js, MongoDb and Firebase.",
         "thumb":"https://i.ibb.co/R991gXy/electric.png",
+        "th1":"https://i.ibb.co/RBWbPMV/Screenshot-487.png",
+        "th2":"https://i.ibb.co/Gnb9K2H/Screenshot-486.png",
         "live":"https://last-assignment-auth.web.app/",
+        "client":"https://github.com/MIRJAKARIYA/Electric-builders-app",
+        "server":"https://github.com/MIRJAKARIYA/Electric-builders-server",
         "pFeat":["Users can order products in this website and see the orders in my orders page Users can also pay and cancel order.","Users can add a review in add a review page and the review will be added on homepage.","Users can update profile in My profile page","If a user is an admin he/she will see be able to manage order, deliver order, cancel order, modify tools etc.","An admin can make another person admin."]
     },
     {
         "id":2,
         "pName":"MILITARY WAREHOUSE",
         "pType":"MERN",
-        "thumb":"https://i.ibb.co/gPCMBpC/warehouse.png",
+        "thumb":"https://i.ibb.co/1vR1hF2/Screenshot-490.png",
+        "th1":"https://i.ibb.co/gPCMBpC/warehouse.png",
+        "th2":"https://i.ibb.co/6PVHJKg/Screenshot-489.png",
         "shortDes":"This project is built with HTML5, CSS3, Javascript, React.js, Node.js, Express.js, MongoDb and Firebase.",
         "live":"https://inventory-management-11-9b48e.web.app/",
+        "client":"https://github.com/MIRJAKARIYA/warehouse-management-app",
+        "server":"https://github.com/MIRJAKARIYA/warehouse-management-server",
         "pFeat":["In homepage there are navigation,banner,warehouse states,6 warehouse items, some team members and footer.","There is a button called 'UPDATE STOCK' in every item and clicking it user will be taken to update product page.","In update product page user will be able to decrease quantity by clicking delivered button.User will be able to restok item by clicking restock button.","User will be able to add new item in add item page.","In manage items page all inventory items will be shown and user can manage it."]
     },
     {
@@ -22,8 +30,12 @@
         "pName":"VOLUNTEER NETWORK",
         "pType":"MERN",
         "thumb":"https://i.ibb.co/PtQ8Z5f/volunteer.png",
+        "th1":"https://i.ibb.co/F71qNVP/Screenshot-492.png",
+        "th2":"https://i.ibb.co/QkyVYFV/Screenshot-491.png",
         "shortDes":"This project is built with HTML5, CSS3, Javascript, React.js, Node.js, Express.js, MongoDb and Firebase.",
         "live":"https://voluteer-service.web.app/",
+        "client":"https://github.com/MIRJAKARIYA/volunteer-service-app",
+        "server":"https://github.com/MIRJAKARIYA/volunteer-service-server",
         "pFeat":["Homepage contains some volunteer services.You can see more description by clicking 'show more' button.","By clicking Checkout button you can see detail description about the service and also can register for the service.","In volunteer list route you can see details about all the volunteers who already registered including your registration also you can remove your registration.","In Add Event route you can add your own events.","In Events route you can see all the events you have added.","In Login route you can login to the website."]
     },
     {
@@ -32,7 +44,10 @@
         "pType":"REACT",
         "shortDes":"This project is built with HTML5, CSS3, Javascript and React.js",
         "thumb":"https://i.ibb.co/Ycb9kvH/teeth-wizard.png",
+        "th1":"https://i.ibb.co/gykQ8BR/Screenshot-484.png",
+        "th2":"https://i.ibb.co/PQDmynd/Screenshot-485.png",
         "live":"https://rainbow-pegasus-a25c65.netlify.app/",
+        "client":"https://rainbow-pegasus-a25c65.netlify.app/",
         "pFeat":["This project contains a hompage which contains a banner some dental services some clients comments.","clicking on checkout more will take us to the service checkout page where we can know about service and also make appoinment.","If user is not logged in then clicking on checkout more will take user to login page.","I about section there are some information about the creator of the website.","If the user is logged in or created an account then log out button will show up and user can log out if wants."]
     },
     {
@@ -41,7 +56,10 @@
         "pType":"REACT",
         "shortDes":"This project is built with HTML5, CSS3, Javascript and React.js",
         "thumb":"https://i.ibb.co/v1W2w4h/gaming-universe.png",
+        "th1":"https://i.ibb.co/VYNPdHv/Screenshot-480.png",
+        "th2":"https://i.ibb.co/KVNYLm9/Screenshot-481.png",
         "live":"https://gaminguniverse.netlify.app/",
+        "client":"https://github.com/MIRJAKARIYA/Gaming-universe-react-app",
         "pFeat":["Home page contains a main picture of the game and some information about it.The page also contains three reviews about the game.","Reviews page contains all reviews about the game.","Dashboard page contains 4 charts about investment,revenue and sell.","blogs page contains three blogs about web development.","About page contains three buttons.By clicking them some contact informations appear."]
     },
     {
@@ -50,7 +68,10 @@
         "pType":"REACT",
         "shortDes":"This project is built with HTML5, CSS3, Javascript and React.js",
         "thumb":"https://i.ibb.co/k4VV2Cm/aircraft-house.png",
+        "th1":"https://i.ibb.co/hcH4yN7/Screenshot-483.png",
+        "th2":"https://i.ibb.co/1LyLyvF/Screenshot-482.png",
         "live":"https://aircrafthouse.netlify.app/",
+        "client":"https://github.com/MIRJAKARIYA/Aircraft-house-react-app",
         "pFeat":["User can add aircrafts to the cart by clicking the add to cart button.","User can't add same aircraft twice.","User can remove aircraft from the cart.","User can clear cart.","Clicking the 'CHOOSE 1 FOR ME' button will suggest one random aircraft among all the aircraft in the cart."]
     }
 ]
