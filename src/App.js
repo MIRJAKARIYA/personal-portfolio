@@ -1,20 +1,19 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import About from './components/About/About';
-import ContactMe from './components/ContactMe/ContactMe';
-import Home from './components/Home/Home';
+import Blogs from './components/Blogs/Blogs';
 import Navbar from './components/Navbar/Navbar';
-import Projects from './components/Projects/Projects';
-import Skills from './components/Skills/Skills';
+import PortfolioContainer from './components/PortfolioContainer/PortfolioContainer';
 
 function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <Home></Home>
-      <About></About>
-      <Skills></Skills>
-      <Projects></Projects>
-      <ContactMe></ContactMe>
+      <Routes>
+        <Route path='/' element={<PortfolioContainer></PortfolioContainer>}></Route>
+        <Route path='/home' element={<PortfolioContainer></PortfolioContainer>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+      </Routes>
+
     </div>
   );
 }

@@ -14,8 +14,8 @@ import './Skills.css';
 const Skills = () => {
   return (
     <div className="skills-container">
-      <div className="max-w-[1200px] mx-auto lg:pl-10" id="skills">
-        <h1 className="text-3xl">Skills</h1>
+      <div className="max-w-[1200px] mx-auto lg:pl-10 scroll-mt-20" id="skills">
+        <h1 className="text-3xl text-primary mb-4">Skills</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           <div className="card shadow-xl bg-slate-900 text-white">
             <div className="text-center pt-4">

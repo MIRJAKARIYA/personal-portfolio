@@ -19,12 +19,7 @@ const About = () => {
               Dhaka, Bangladesh
             </h1>
             <p className="mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              dignissimos voluptatem, cum similique quisquam ex quia ducimus
-              quam aliquam ullam maxime quae asperiores ab, vero quod officiis
-              repellat quos doloremque assumenda eius? Obcaecati architecto
-              accusamus error? Labore explicabo quisquam vitae rem laudantium
-              delectus, quos ut ex magni temporibus eveniet perspiciatis.
+            Greetings!!! Thank you for taking the time to go through my website. In 2020, I graduated with a bachelor's degree in Electrical and Electronic Engineering. During my studies, I studied the fundamentals of C and Assembly languages, which I thoroughly enjoyed. Rather than electrical engineering, I thought I was more passionate about programming. Following graduation, I began to study programming. I tried python and Java for a few days, but I had no idea how to apply them in real life. I discovered the prospects in the web development carrier after doing some research so without wasting any time, I enrolled in Programming Hero's Complete Web Development course, which I recently completed successfully. HTML5, CSS3, Javascript, React, Node.js, Express.js, and MongoDb are among my web development skills.
             </p>
             <a href="#contactme" className="btn btn-primary btn-sm mt-4">
               contact me

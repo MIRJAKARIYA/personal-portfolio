@@ -1,6 +1,8 @@
 import React from "react";
+import {Link, useLocation} from 'react-router-dom'
 
 const Navbar = () => {
+  const location = useLocation();
   return (
     <div className="bg-black sticky top-0 z-20">
       <div className="navbar max-w-[1400px] mx-auto">
@@ -26,7 +28,8 @@ const Navbar = () => {
               tabIndex="0"
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-black"
             >
-              <li>
+             {
+              location.pathname.includes('blogs') ? <li><Link to='/home'>Home</Link></li>:<> <li>
               <a href="#home" className="mr-7">
               Home
             </a>
@@ -37,15 +40,31 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
+                <a href="#personal-information" className="mr-7">
+                  Personal Info
+                </a>
+              </li>
+              <li>
+                <a href="#skills" className="mr-7">
+                  Skills
+                </a>
+              </li>
+              <li>
                 <a href="#projects" className="mr-7">
                   Projects
                 </a>
               </li>
+              
 
               <li>
                 <a href="#contactme" className="mr-7">
                   Contact me
                 </a>
+              </li></>
+              
+             }
+              <li>
+              <Link to='/blogs'>Blogs</Link>
               </li>
             </ul>
           </div>
@@ -53,18 +72,28 @@ const Navbar = () => {
         </div>
         <div className="navbar-end hidden lg:block">
           <div className="flex justify-end text-white font-semibold">
-            <a href="#home" className="mr-7 hover:text-warning">
+            {
+              location.pathname.includes('blogs') ? <Link to='/home' className="mr-8">Home</Link>:<>
+              <a href="#home" className="mr-7 hover:text-warning">
               Home
             </a>
             <a href="#about" className="mr-7 hover:text-warning">
               About
+            </a>
+            <a href="#personal-information" className="mr-7 hover:text-warning">
+              Personal Info
+            </a>
+            <a href="#skills" className="mr-7 hover:text-warning">
+              Skills
             </a>
             <a href="#projects" className="mr-7 hover:text-warning">
               Projects
             </a>
             <a href="#contactme" className="mr-7 hover:text-warning">
               Contact me
-            </a>
+            </a></>
+            }
+            <Link to='/blogs'>Blogs</Link>
           </div>
         </div>
       </div>

@@ -12,26 +12,25 @@ const Home = () => {
       <div className="h-screen banner-extra-style relative flex justify-center items-center scroll-mt-0" id="home">
         <div className="text-center">
           <h1 className="text-white text-center text-4xl md:text-6xl font-semibold">Front End developer</h1>
-          <a href={Resume} className="btn btn-xs btn-warning font-semibold mt-3" download={true}>download resume</a>
+          <a href={Resume} className="btn btn-xs btn-outline btn-warning font-semibold mt-3" download={true}>download resume</a>
           <div className="text-white text-2xl flex justify-center mt-6 items-center">
-              <span>
+              <a href="https://www.facebook.com/MIRJAKARIYA239" target="_blank" rel="noreferrer">
                   <GrFacebookOption></GrFacebookOption>
-              </span>
-              <span className="ml-3">
+              </a>
+              <a className="ml-3" href="https://github.com/MIRJAKARIYA" target="_blank" rel="noreferrer">
                   <AiFillGithub></AiFillGithub>
-              </span>
-              <span className="ml-3">
+              </a>
+              <a className="ml-3" href="mailto:mirjakriya239@gmail.com">
                   <IoLogoGoogle></IoLogoGoogle>
-              </span>
-              <span className="ml-3">
+              </a>
+              <a className="ml-3" href="https://www.linkedin.com/in/mir-jakariya-99b777229/" target="_blank" rel="noreferrer">
                   <GrLinkedinOption></GrLinkedinOption>
-              </span>
-           
+              </a>
           </div>
         </div>
         <a
-          href="#kk"
-          className="text-4xl text-warning absolute top-[900px] left-[49%]"
+          href="#about"
+          className="text-4xl text-warning absolute top-[800px] left-[49%]"
         >
           <BsArrowDownCircle></BsArrowDownCircle>
         </a>

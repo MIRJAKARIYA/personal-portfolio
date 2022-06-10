@@ -19,7 +19,7 @@ const Projects = () => {
         className="max-w-[1200px] mx-auto lg:pl-10 scroll-mt-20"
         id="projects"
       >
-        <h1 className="text-3xl">Projects</h1>
+        <h1 className="text-3xl mb-4 text-primary font-semibold">Projects</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {projects.map((project) => (
             <SingleProject key={project.id} setModalData={setModalData} project={project}></SingleProject>
