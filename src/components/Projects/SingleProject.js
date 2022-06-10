@@ -1,7 +1,11 @@
 import React from 'react';
 
-const SingleProject = ({project}) => {
-    console.log(project)
+const SingleProject = ({project,setModalData}) => {
+
+    const handleModalOpen = () =>{
+      setModalData(project)
+    }
+    
     return (
         <div className="card bg-slate-900 text-white shadow-xl p-2">
             <figure>
@@ -17,9 +21,10 @@ const SingleProject = ({project}) => {
               </p>
               
               <div className='flex gap-4'>
-                  <button className='btn btn-accent btn-sm flex-1'>Details</button>
+                  <label htmlFor='my-modal-5' onClick={handleModalOpen} className='btn btn-accent btn-sm flex-1'>Details</label>
               <a
                 href={project.live}
+                rel="noreferrer" target='_blank'
                 className="btn btn-warning btn-sm flex-1"
               >
                 Live site
