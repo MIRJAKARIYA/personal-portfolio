@@ -17,7 +17,7 @@ const Skills = () => {
       <div className="max-w-[1200px] mx-auto lg:pl-10 scroll-mt-20" id="skills">
         <h1 className="text-3xl text-primary mb-4">Skills</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div className="card shadow-xl bg-slate-900 text-white">
+          <div data-aos-duration="1000" data-aos="fade-up" className="card shadow-xl bg-slate-900 text-white">
             <div className="text-center pt-4">
               <div
                 className="radial-progress text-white"
@@ -56,7 +56,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-xl bg-slate-900 text-white">
+          <div data-aos="fade-up" data-aos-duration="1000" className="card shadow-xl bg-slate-900 text-white">
             <div className="text-center pt-4">
               <div
                 className="radial-progress text-white"
@@ -89,7 +89,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-xl bg-slate-900 text-white">
+          <div data-aos="fade-up" data-aos-duration="1000" className="card shadow-xl bg-slate-900 text-white">
             <div className="text-center pt-4">
               <div
                 className="radial-progress text-white"

@@ -7,7 +7,7 @@ const SingleProject = ({project,setModalData}) => {
     }
     
     return (
-        <div className="card bg-slate-900 text-white shadow-xl p-2">
+        <div data-aos="fade-up" data-aos-duration="1000" className="card bg-slate-900 text-white shadow-xl p-2">
             <figure>
               <img src={project.thumb} className="rounded-xl" alt="" />
             </figure>

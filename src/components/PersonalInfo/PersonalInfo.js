@@ -34,19 +34,19 @@ const PersonalInfo = () => {
               </h1>
               <div className="flex justify-center">
                 <ul className="steps steps-vertical">
-                  <li className="step step-warning">
+                  <li data-content="🎓" className="step step-warning">
                     <span>
                       <span className="text-red-700 font-semibold">Graduation</span>: BSc in
                       EEE at Daffodil International University
                     </span>
                   </li>
-                  <li className="step step-secondary">
+                  <li data-content="🎓" className="step step-secondary">
                     <span>
                       <span className="text-red-700 font-semibold">HSC</span>: Science at MEH
                       Arif College
                     </span>
                   </li>
-                  <li className="step step-accent">
+                  <li data-content="🎓" className="step step-accent">
                     <span>
                       <span className="text-red-700 font-semibold">SSC</span>: Science at
                       Rajabari High School
