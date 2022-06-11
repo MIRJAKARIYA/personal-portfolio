@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { BsArrowDownCircle } from "react-icons/bs";
+import { RiArrowDownSLine } from 'react-icons/ri';
 import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
 import { AiFillGithub } from "react-icons/ai";
 import { IoLogoGoogle } from "react-icons/io";
@@ -65,9 +65,9 @@ const Home = () => {
         </div>
         <a
           href="#about"
-          className="text-4xl text-warning absolute top-[800px] left-[49%]"
+          className="text-4xl text-white absolute top-[800px] left-[49%] extra-arrow-style"
         >
-          <BsArrowDownCircle></BsArrowDownCircle>
+          <RiArrowDownSLine></RiArrowDownSLine>
         </a>
       </div>
     </div>
