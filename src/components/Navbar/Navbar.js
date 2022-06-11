@@ -74,7 +74,7 @@ const Navbar = () => {
         <div className="navbar-end hidden lg:block">
           <div className="flex justify-end text-white font-semibold">
             {
-              location.pathname.includes('blogs') ? <Link to='/home' className="mr-8">Home</Link>:<>
+              location.pathname.includes('blogs') ? <Link to='/home' className="mr-8 hover:text-warning">Home</Link>:<>
               <a href="#home" className="mr-7 hover:text-warning">
               Home
             </a>
@@ -94,7 +94,7 @@ const Navbar = () => {
               Contact me
             </a></>
             }
-            <Link to='/blogs'>Blogs</Link>
+            <Link to='/blogs' className="hover:text-warning">Blogs</Link>
           </div>
         </div>
       </div>
