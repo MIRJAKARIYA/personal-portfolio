@@ -37,7 +37,7 @@ const ContactMe = () => {
   return (
 <div className="contact-me-container" id="contactme">
 <div className="max-w-[1200px] mx-auto lg:pl-10">
-      <h1 className="text-3xl text-primary">Contact me</h1>
+      <h1 className="text-3xl text-primary font-semibold">Contact me</h1>
       <form action="" className="mt-4 md:w-full" onSubmit={handleContact}>
         <div className="md:flex">
           <input type="text" placeholder="Name*" name="name" className="p-4 pl-0" required/>

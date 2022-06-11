@@ -15,7 +15,7 @@ const About = () => {
         <div className="md:w-[60%] w-full flex items-center">
           <div className="md:mt-[-80px] md:w-full w-[90%] mx-auto mt-2">
             <h1 className="md:text-4xl text-3xl font-semibold">
-              I am Mir Jakariya,<br></br> Front End Web Developer<br></br> from
+              I am <span className="text-secondary">Mir Jakariya</span>,<br></br> Front End Web Developer<br></br> from
               Dhaka, Bangladesh
             </h1>
             <p className="mt-4">

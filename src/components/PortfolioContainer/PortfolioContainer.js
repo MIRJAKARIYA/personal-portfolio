@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../About/About";
 import ContactMe from "../ContactMe/ContactMe";
+import Footer from "../Footer/Footer";
 import Home from "../Home/Home";
 import PersonalInfo from "../PersonalInfo/PersonalInfo";
 import Projects from "../Projects/Projects";
@@ -15,6 +16,7 @@ const PortfolioContainer = () => {
       <Skills></Skills>
       <Projects></Projects>
       <ContactMe></ContactMe>
+      <Footer></Footer>
     </div>
   );
 };
